@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-sanity",
+  "name": "chemotionnet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028",
-    "next": "15.0.2"
+    "@sanity/client": "^6.22.2",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.63.0",
+    "next": "15.0.2",
+    "next-sanity": "^9.8.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^3.63.0",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "15.0.2"
+    "eslint-config-next": "15.0.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
